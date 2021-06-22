@@ -557,7 +557,6 @@ contact
   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
   transition: var(--transition);
   max-width: 35rem;
-  align: center;
 }
 .contact-form:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
