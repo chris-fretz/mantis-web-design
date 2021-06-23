@@ -178,6 +178,7 @@ p {
   margin-bottom: 4rem;
   text-align: center;
 }
+
 /*
 =============== 
 Navbar
@@ -262,6 +263,7 @@ Navbar
   z-index: 2;
   box-shadow: var(--light-shadow);
 }
+
 /*
 =============== 
 Sidebar
@@ -329,6 +331,7 @@ Sidebar
 .close-btn:hover {
   color: #e66b6b;
 }
+
 /*
 =============== 
 Heading

@@ -1,0 +1,32 @@
+<!-- blog -->
+<section class="section blog" id="blog">
+  <!-- section title -->
+  <div class="section-title">
+    <h2>blog<h2>
+  </div>
+  <!-- end of section title -->
+  <div class="section-center blog-center">
+  <!-- single article -->
+  <div class="card">
+    <!-- front of the card -->
+    <div class="card-side card-front">
+      <img src="./assets/img/Mantis logo.jpg" alt="">
+      <div class="card-info">
+        <h4>article title</h4>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem aliquam numquam in quibusdam laudantium repellendus voluptate quis saepe soluta sapiente!
+        </p>
+      <div class="card-footer">
+        <p>7 min read</p>
+      </div>
+    </div>
+    </div>
+    <!-- card back -->
+    <div class="card-side card-back">
+      <button class="btn">read more</button>
+    </div>
+  </div>
+<!-- end of single article -->
+   </div>
+</section>
+<!-- end of blog -->
