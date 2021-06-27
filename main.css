@@ -18,7 +18,7 @@ Variables
   --clr-primary-3: #456f20;
   --clr-primary-4: #588e29;
   /* primary/main color */
-  --clr-primary-5: #60992d;
+  --clr-primary-5: rgb(96, 153, 45);
   /* dark shades of secondary color*/
   --clr-secondary-1: #1b1a23;
   --clr-secondary-2: #24222f;
@@ -26,7 +26,7 @@ Variables
   --clr-secondary-3: #3f3c53;
   --clr-secondary-4: #49455f;
   /* secondary color */
-  --clr-secondary-5: #5c5676;
+  --clr-secondary-5: rgb(92, 86, 118);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -338,8 +338,8 @@ Heading
 ===============
 */
 .header {
-  min-height: 90vh;
-  background-image: url(./assets/img/Mantis-edited.jpg);
+  min-height: 30vh;
+  background-color: var(--clr-primary-5);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -353,6 +353,19 @@ Heading
   left: 0;
   right: 0;
   text-align: center;
+  /* color: var(--clr-white); */
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    min-height: 90vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(96, 153, 45, 0.5),
+        rgba(92, 86, 118, 0.5)
+      ),
+      url(./assets/img/Mantis-edited.jpg);
+  }
 }
 /*
 =============== 
@@ -619,13 +632,6 @@ contact
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
-@media screen and (min-width: 992px) {
-  .contact-form,
-  .contact-info {
-    float: none;
-    width: 50%;
-  }
-}
 
 /*
 =============== 
@@ -648,7 +654,7 @@ footer
   color: var(--clr-primary-10);
 }
 .footer p {
-  font-size: 1.25rem;
+  font-size: 1.16rem;
   text-transform: capitalize;
   color: var(--clr-grey-8);
 }
